@@ -1,0 +1,146 @@
+body {
+	width: 100%;
+	margin: 0px;
+	background-size: auto;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-shadow: 0px 1px 1px #004c97;
+	background-attachment: fixed !important;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-position: 65% 0px !important;
+	height: auto;
+}
+a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+a {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-decoration: none;
+}
+a:hover {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-decoration: none;
+}
+
+li {
+	list-style-image: none;
+	list-style-type: none;
+	text-decoration: none;
+
+}
+img {
+	text-decoration: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+div > img {
+    padding: 12px;
+}
+
+.clear {
+	clear: both;
+	width: 100%;
+}
+/* CONTENEDORES GENERALES */
+
+#contenedor-principal {
+	width: 100%;
+	height: 100%;
+	margin-left: 0px;
+	position: absolute;
+}
+
+#contenedor {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	width: 310px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -100px;
+	
+}
+/* CONTENEDORES GENERALES */
+
+/* CONTENEDOR CENTRAL */
+#contenedor_central {
+	height: 370px;
+	width: 310px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #0066CC;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+.contenedor-central_accesos {
+	float: left;
+	height: 340px;
+	width: 260px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+
+/* CONTENEDOR CENTRAL - BOTONES */
+.contenedor-central_accesos-boton {
+	width: 260px;
+	float: left;
+	height: 45px;
+	margin-bottom: 10px;
+}
+.contenedor-central_accesos-boton li a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 7.8pt;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	letter-spacing: 1px;
+	line-height: 45px;
+	list-style-image: none;
+	list-style-type: none;
+	color: #FFFFFF;
+	height: 45px;
+	background-color: #0984FF;
+	text-decoration: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.contenedor-central_accesos-boton li a:hover {
+	color: #FFFFFF;
+	font-size: 7.8pt;
+	text-decoration: none;
+	background-color: #1C6BFF;
+}
+
+.footer {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
